@@ -57,14 +57,13 @@ To get started with the project, follow these steps:
     Create a `.env` file in the `job_board` directory and add the following:
 
     ```env
-    MONGODB_URI=your_mongodb_connection_string
-    JWT_SECRET=your_secret_key
+    MONGODB_URI= "your_mongodb_connection_string"
     ```
 
 5. Start the backend server:
 
     ```sh
-    npm start
+    node index.js
     ```
 
 ### Frontend Setup
@@ -115,11 +114,10 @@ The application should now be running on `http://localhost:3000` for the fronten
 
 ## Technologies Used
 
-- **Frontend**: React, Redux, Bootstrap
+- **Frontend**: React
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB, Mongoose
-- **Authentication**: JWT (JSON Web Tokens)
-- **Styling**: CSS, Bootstrap
+- **Styling**: CSS
 
 ## Contributing
 
@@ -133,4 +131,4 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed 
