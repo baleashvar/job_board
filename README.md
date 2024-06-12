@@ -131,4 +131,4 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## License
 
-This project is licensed 
+This project is licensed MIT.
